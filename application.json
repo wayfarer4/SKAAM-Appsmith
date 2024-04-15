@@ -3,6 +3,18 @@
     {
       "id": "Login Page",
       "isDefault": true
+    },
+    {
+      "id": "Student",
+      "isDefault": false
+    },
+    {
+      "id": "Teacher",
+      "isDefault": false
+    },
+    {
+      "id": "Building Manager",
+      "isDefault": false
     }
   ],
   "viewMode": false,
