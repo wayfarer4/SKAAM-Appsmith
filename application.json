@@ -15,6 +15,10 @@
     {
       "id": "Building Manager",
       "isDefault": false
+    },
+    {
+      "id": "Book a Space",
+      "isDefault": false
     }
   ],
   "viewMode": false,
