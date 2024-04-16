@@ -4,6 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 25,
     "widgetName": "Button2",
+    "onClick": "{{viewbooking.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -19,7 +20,7 @@
     "mobileRightColumn": 44,
     "animateLoading": true,
     "parentColumnSpace": 10.609375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 27,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
