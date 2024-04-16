@@ -58,7 +58,7 @@
     "showReset": false,
     "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
-    "autoGenerateForm": true,
+    "autoGenerateForm": false,
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
