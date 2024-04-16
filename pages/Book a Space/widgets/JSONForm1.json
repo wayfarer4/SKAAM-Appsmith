@@ -18,7 +18,6 @@
         {"key": "schema.__root_schema__.children.Available.defaultValue"},
         {"key": "schema.__root_schema__.children.Available.accentColor"},
         {"key": "schema.__root_schema__.children.Available.borderRadius"},
-        {"key": "schema.__root_schema__.children.SpaceId.defaultValue"},
         {"key": "schema.__root_schema__.children.SpaceId.accentColor"},
         {"key": "schema.__root_schema__.children.SpaceId.borderRadius"},
         {"key": "schema.__root_schema__.defaultValue"},
@@ -29,7 +28,8 @@
         {"key": "schema.__root_schema__.children.customField2.accentColor"},
         {"key": "schema.__root_schema__.children.customField2.borderRadius"},
         {"key": "schema.__root_schema__.children.customField3.borderRadius"},
-        {"key": "schema.__root_schema__.children.customField3.accentColor"}
+        {"key": "schema.__root_schema__.children.customField3.accentColor"},
+        {"key": "schema.__root_schema__.children.SpaceId.defaultValue"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -218,7 +218,7 @@
                 "boxShadow": "none",
                 "isRequired": false,
                 "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.SpaceId))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (Table1.selectedRow.SpaceId))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "SpaceId",
