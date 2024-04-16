@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "viewavailable",
+    "name": "bookSpace",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/s/spaces/viewavailable"
+        "url": "web:4000/p/people/book"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Student",
+    "pageId": "Book a Space",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{JSONForm1.formData}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -45,18 +45,24 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "JSONForm1.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-15T23:08:15Z"
+    "createdAt": "2024-04-15T22:42:23Z"
   },
-  "id": "Student_viewavailable",
+  "id": "Book a Space_bookSpace",
   "deleted": false,
-  "gitSyncId": "661dabb5e21ed45fe300ea69_661db35fe21ed45fe300ea79"
+  "gitSyncId": "661da4a1586e9c4df89d794c_661dad4f12f56e5542833511"
 }
