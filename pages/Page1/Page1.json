@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Book a Space",
-    "slug": "book-a-space",
+    "name": "Page1",
+    "slug": "page1",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 480,
           "containerStyle": "none",
           "snapRows": 47,
           "parentRowSpace": 1,
@@ -25,30 +25,17 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Book a Space_viewavailableCopy",
-              "name": "viewavailableCopy",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
+        "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Book a Space",
+        "id": "Page1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "661da4a1586e9c4df89d794c_661dacd312f56e554283350f"
+  "gitSyncId": "661da4a1586e9c4df89d794c_661dbcde12f56e5542833526"
 }

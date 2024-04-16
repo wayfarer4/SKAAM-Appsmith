@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "bookSpace",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -62,7 +62,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-15T23:10:32Z"
   },
-  "id": "Student_Api1",
+  "id": "Student_bookSpace",
   "deleted": false,
   "gitSyncId": "661da4a1586e9c4df89d794c_661db3e812f56e5542833513"
 }
