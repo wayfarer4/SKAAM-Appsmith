@@ -2,7 +2,8 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "topRow": 5,
+    "onSubmit": "{{deleteBooking.run().then(() => {\n  getYourBuildingBookings.run();\n});}}",
+    "topRow": 4,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 0,
@@ -21,7 +22,7 @@
         {"key": "schema.__root_schema__.borderRadius"},
         {"key": "schema.__root_schema__.cellBorderRadius"}
     ],
-    "showReset": true,
+    "showReset": false,
     "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
     "autoGenerateForm": true,
@@ -38,7 +39,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Delete",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -152,7 +153,7 @@
             "isSpellCheck": false,
             "iconAlign": "left",
             "position": 0,
-            "isDisabled": false,
+            "isDisabled": true,
             "sourceData": 251512665,
             "fieldType": "Number Input"
         }},
@@ -173,14 +174,14 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 32,
+    "bottomRow": 31,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Form",
     "hideCard": false,
     "mobileRightColumn": 44,
     "parentColumnSpace": 6.56941756606102,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",

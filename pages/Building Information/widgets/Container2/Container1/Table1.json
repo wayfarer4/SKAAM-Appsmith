@@ -85,7 +85,7 @@
     "displayName": "Table",
     "bottomRow": 15,
     "columnWidthMap": {
-        "BuildingName": 341,
+        "BuildingName": 167,
         "LastName": 284
     },
     "parentRowSpace": 10,

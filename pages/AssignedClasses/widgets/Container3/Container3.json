@@ -20,7 +20,9 @@
     "shouldScrollContents": true,
     "animateLoading": true,
     "parentColumnSpace": 8.934407889842987,
+    "dynamicTriggerPathList": [],
     "leftColumn": 13,
+    "dynamicBindingPathList": [],
     "children": [{
         "rightColumn": 571.8021049499512,
         "widgetName": "Canvas3",
@@ -50,7 +52,7 @@
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "abji2d96mq",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "#dbeafe",
     "isDeprecated": false,
     "rightColumn": 47,
     "dynamicHeight": "AUTO_HEIGHT",
