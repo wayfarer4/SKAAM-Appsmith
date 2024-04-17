@@ -27,6 +27,10 @@
     {
       "id": "ReportIncident",
       "isDefault": false
+    },
+    {
+      "id": "AssignedClasses",
+      "isDefault": false
     }
   ],
   "viewMode": false,
