@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "selectingBuilding",
+    "name": "SelectBuildingInfo",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Building Manager",
+    "pageId": "Building Information",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{{\"staff_id\": 6262446117}}}",
+      "body": "{{{\"staff_id\": 0961680881}}}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
@@ -43,7 +43,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -53,15 +53,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "{\"staff_id\": 6262446117}"
+      "{\"staff_id\": 0961680881}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T00:20:05Z"
+    "createdAt": "2024-04-17T00:45:42Z"
   },
-  "id": "Building Manager_selectingBuilding",
+  "id": "Building Information_SelectBuildingInfo",
   "deleted": false,
-  "gitSyncId": "661da4a1586e9c4df89d794c_661f15b5271df647d98d007d"
+  "gitSyncId": "661dc4d422ba414e9e59fdd2_661f1bb6a8e8b82de4025e1e"
 }
