@@ -35,6 +35,18 @@
     {
       "id": "Change booking name",
       "isDefault": false
+    },
+    {
+      "id": "CallBuildingManager",
+      "isDefault": false
+    },
+    {
+      "id": "Call IT",
+      "isDefault": false
+    },
+    {
+      "id": "Call assigned cleaner",
+      "isDefault": false
     }
   ],
   "viewMode": false,
