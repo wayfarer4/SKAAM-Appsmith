@@ -51,6 +51,14 @@
     {
       "id": "AssignedClasses",
       "isDefault": false
+    },
+    {
+      "id": "View Spaces in Building",
+      "isDefault": false
+    },
+    {
+      "id": "View Bookings in Building",
+      "isDefault": false
     }
   ],
   "viewMode": false,
