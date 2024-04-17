@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 5,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Edit/Delete a space in your building:",
+    "text": "Edit a space in your building:",
     "key": "g1v1fflp1u",
     "isDeprecated": false,
     "rightColumn": 51.2,
