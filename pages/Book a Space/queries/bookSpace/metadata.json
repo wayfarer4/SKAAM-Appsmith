@@ -8,7 +8,7 @@
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/p/people/book"
+        "url": "web:4000/b/bookings/book"
       },
       "invalids": [],
       "messages": [],

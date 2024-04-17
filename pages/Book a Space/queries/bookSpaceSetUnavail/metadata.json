@@ -8,7 +8,7 @@
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/p/people/updatetime"
+        "url": "web:4000/s/spaces/setSpaceUnavailable"
       },
       "invalids": [],
       "messages": [],
