@@ -2,8 +2,8 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{checkIn.run();\nViewStudentBooking.run()}}",
-    "topRow": 48,
+    "onSubmit": "{{deleteBookingCopy.run()\nViewStudentBooking.run();}}",
+    "topRow": 80,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 4,
@@ -72,7 +72,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Check-in",
+    "submitButtonLabel": "Delete",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -152,7 +152,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 75,
+    "originalBottomRow": 107,
     "useSourceData": true,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -446,7 +446,7 @@
     }},
     "needsErrorInfo": false,
     "mobileBottomRow": 90,
-    "widgetName": "JSONForm1",
+    "widgetName": "JSONForm1Copy",
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -455,10 +455,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 75,
+    "bottomRow": 107,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Check in:",
+    "title": "Delete Booking:",
     "hideCard": false,
     "mobileRightColumn": 35,
     "parentColumnSpace": 7.357747673988342,
@@ -470,7 +470,7 @@
     "backgroundColor": "#fff",
     "isDeprecated": false,
     "rightColumn": 61,
-    "widgetId": "g7ivixdmsv",
+    "widgetId": "4ztk3oc7wf",
     "minWidth": 450,
     "parentId": "vv2yuf1pwo",
     "renderMode": "CANVAS",
@@ -478,7 +478,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 48,
+    "originalTopRow": 80,
     "mobileLeftColumn": 10,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
