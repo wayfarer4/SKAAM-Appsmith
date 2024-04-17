@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "ChangeClassName",
+    "name": "changeClassDetails",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -40,7 +40,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
     "executeOnLoad": false,
@@ -59,9 +59,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T00:47:55Z"
+    "createdAt": "2024-04-17T02:36:48Z"
   },
-  "id": "AssignedClasses_ChangeClassName",
+  "id": "AssignedClasses_changeClassDetails",
   "deleted": false,
-  "gitSyncId": "661da4a1586e9c4df89d794c_661f1c3b271df647d98d0086"
+  "gitSyncId": "661da4a1586e9c4df89d794c_661f35c0271df647d98d00a9"
 }

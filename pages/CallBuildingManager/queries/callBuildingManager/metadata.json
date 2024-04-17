@@ -28,12 +28,7 @@
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "profId",
-          "value": "2409516211"
-        }
-      ],
+      "queryParameters": [],
       "body": "{{{\n\t\n\t\"prof_id\": '2409516211'\n}}}",
       "bodyFormData": [],
       "httpMethod": "GET",
@@ -48,7 +43,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"

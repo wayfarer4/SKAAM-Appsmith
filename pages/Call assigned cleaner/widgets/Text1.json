@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "View cleaner number for your assigned classrooms:",
+    "text": "View cleaner phone number for your assigned classrooms:",
     "key": "ova5ylkpij",
     "isDeprecated": false,
     "rightColumn": 29,

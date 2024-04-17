@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "AssignedClasses_GetAssignedClasses",
-              "name": "GetAssignedClasses",
+              "id": "AssignedClasses_getAssignedClasses",
+              "name": "getAssignedClasses",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -52,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661da4a1586e9c4df89d794c_661f1a0a271df647d98d0080"
+  "gitSyncId": "661da4a1586e9c4df89d794c_661f34eb271df647d98d00a5"
 }

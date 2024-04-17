@@ -47,6 +47,10 @@
     {
       "id": "Call assigned cleaner",
       "isDefault": false
+    },
+    {
+      "id": "AssignedClasses",
+      "isDefault": false
     }
   ],
   "viewMode": false,
