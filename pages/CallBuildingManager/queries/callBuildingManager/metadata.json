@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "ChangeClassName",
+    "name": "callBuildingManager",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/people/editassignedclasses"
+        "url": "web:4000/p/people/callbuildingmanager"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "AssignedClasses",
+    "pageId": "CallBuildingManager",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -28,10 +28,15 @@
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [],
-      "body": "{{JSONForm1.formData}}",
+      "queryParameters": [
+        {
+          "key": "profId",
+          "value": "2409516211"
+        }
+      ],
+      "body": "{{{\n\t\n\t\"prof_id\": '2409516211'\n}}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -53,15 +58,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSONForm1.formData"
+      "{\n\t\n\t\"prof_id\": '2409516211'\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T00:47:55Z"
+    "createdAt": "2024-04-17T01:41:53Z"
   },
-  "id": "AssignedClasses_ChangeClassName",
+  "id": "CallBuildingManager_callBuildingManager",
   "deleted": false,
-  "gitSyncId": "661da4a1586e9c4df89d794c_661f1c3b271df647d98d0086"
+  "gitSyncId": "661dabb5e21ed45fe300ea69_661f28e1880ec3609d540623"
 }
