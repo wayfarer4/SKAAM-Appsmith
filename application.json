@@ -23,6 +23,10 @@
     {
       "id": "CurrentBookings",
       "isDefault": false
+    },
+    {
+      "id": "ReportIncident",
+      "isDefault": false
     }
   ],
   "viewMode": false,
